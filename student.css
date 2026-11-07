@@ -6,14 +6,17 @@
 /* 01. Полоска в половину контейнера */
 .task1 .meter {
   width: 50%;
+  height: 20px;
+  background-color: blue;
 }
 
 /* 02. Карточка с полями */
 .task2 .note {
-  box-sizing: border-box;
   width: 90%;
   max-width: 420px;
-  margin-inline: auto;
+  margin: 0 auto;
+  padding: 15px;
+  box-sizing: border-box;
 }
 
 /* 03. Баннер, который растёт вместе с окном */
